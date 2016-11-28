@@ -1,0 +1,394 @@
+﻿/* Fonts */
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	text-align: center;
+}
+
+section {
+	font-size: 0.9em;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 180%;
+}
+
+/* Body - teksts */
+body {
+	margin: 0;
+  padding: 0;
+}
+
+.solid {
+	border-bottom: 1px solid black;
+	max-width: 800px;
+	margin: auto;
+}
+
+/* Section 1 - galvenais teksts */
+.s1_container {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-right: 10%;
+	text-align: justify;
+	display: flex;
+	position: relative;
+	font-size: 16px;
+}
+
+/* "Sākums" - (Jaunumi) centrēts */
+.jaunumi {
+width: 100%;
+text-align: center;
+}
+
+/* Pelēkie virsraksti */
+.jaunumi > h1 {
+	padding: 15px;
+	background: #D1D1D1;
+	color: #fff;
+	width: 15%;
+	display: inline-block;
+}
+
+/* "Sākums" galvenā teksta rindstarpas */
+.col2 {
+  	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+     padding-bottom: 70px;
+}
+
+/* cv teksts */
+.col3 {
+	  -moz-column-count: 1;
+		-moz-column-gap: 20px;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 20px;
+		 padding-bottom: 20px;
+		 line-height: 120%;
+}
+
+/* cv teksts */
+.cv123 {
+	font-size: 0.9em;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* cv teksts */
+.s3_container {
+	text-align: justify;
+	width: 45%;
+	margin: auto;
+	margin-top: 60px;
+}
+
+/* kontakti teksts */
+.col4 {
+	  -moz-column-count: 2;
+		-moz-column-gap: 190px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 190px;
+		 padding-bottom: 20px;
+		 line-height: 120%;
+}
+
+/* kontakti teksts */
+.s4_container {
+	text-align: justify;
+	width: 45%;
+	margin: auto;
+	margin-top: 60px;
+	color: #656565;
+}
+
+/* kontakti teksts */
+.test123 {
+	width: 150px;
+	margin-left: 45%;
+	margin-right: 10%;
+	margin-top: 20px;
+	text-align: justify;
+	display: flex;
+	position: relative;
+}
+
+
+/* Attēlu lielumi - Anketa, galerija, par mani, kontakti */
+.Galerija_logo {
+	width: 250px;
+	margin-top: -70px;
+}
+
+.Kontakti_logo {
+	width: 350px;
+	margin-top: -70px;
+}
+
+.CV_logo {
+	width: 280px;
+	margin-top: -70px;
+}
+
+.Anketa_logo {
+	width: 250px;
+	margin-top: -70px;
+}
+
+/* "Par mani" CV bildes lielums */
+.CV_image {
+	margin-left: 34%;
+	margin-right: 10%;
+	text-align: justify;
+	display: flex;
+	position: relative;
+}
+
+.Jurmala_logo {
+	width: 150px;
+  margin-left: 60%;
+}
+
+/* Galerija */
+.thumbnails {
+	margin-right: -5px;
+	padding-left: 63px;
+}
+
+.thumbnails a {
+	float: left;
+	width: 30%;
+	padding-right: 7px;
+	box-sizing: border-box;
+}
+
+.thumbnails img {
+	transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+	opacity: .6;
+	transform: scale(.92);
+}
+
+.thumbnails img:hover {
+	opacity: 1;
+	transform: scale(1);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.header_logo {
+	height: 80px;
+	margin: auto;
+	display: block;
+}
+
+/* Navigation bootstrap */
+.nav_container {
+		position: fixed;
+		text-align: center;
+		width: 100%;
+		z-index: 500;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.menu {
+	background: #494949;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+.menu > li {
+	background: #494949;
+	float: left;
+	width: 20%;
+}
+
+.menu a {
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, Helvetica;
+	font-size: 14px;
+}
+
+.menu li:hover {
+	background: #03B4DA;
+}
+
+.menu > li > a {
+	padding: 0.6em 4.8em;
+}
+
+/* "Sākums" rakstu bildes */
+.rallijs_logo {
+	margin: auto;
+	text-align: justify;
+	display: flex;
+	position: relative;
+}
+
+.audi_logo {
+	margin: auto;
+	text-align: justify;
+	display: block;
+	position: relative;
+}
+
+.Mols_logo {
+	margin: auto;
+	text-align: justify;
+	display: flex;
+	position: relative;
+}
+
+/* Anketa */
+.myForm {
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.8em;
+width: 20em;
+padding: 1em;
+border: 1px solid #ccc;
+}
+
+.myForm * {
+box-sizing: border-box;
+}
+
+.myForm fieldset {
+border: none;
+padding: 0;
+}
+
+.myForm legend,
+.myForm label {
+padding: 0;
+font-weight: bold;
+}
+
+.myForm label.choice {
+font-size: 0.9em;
+font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.3em;
+}
+
+.myForm textarea {
+height: 100px;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-top: 1em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+
+#container #question {
+        display: block;
+        padding: 20px;
+        font-weight: bold;
+        letter-spacing: -3px;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 40px;
+    }
+
+#container div {
+        font-weight: bold;
+        letter-spacing: -3px;
+        background: #0099cc;
+        margin-bottom: 15px;
+        padding: 10px;
+        font-size: 34px;
+        color: #ffffff;
+        border-left: 20px solid #333;
+        width: 400px;
+        -webkit-border-radius: 0.5em;
+        -moz-border-radius: 0 0.5em 0.5em 0;
+        border-radius: 0 1.5em 1.5em 0;
+    }
+
+#container div a {
+        border-radius: 0.3em;
+        text-decoration: none;
+        color: #0099cc;
+        padding: 5px 15px;
+        background: #333;
+        margin: 0 20px;
+    }
+
+#container div a:hover {
+        color: #fff;
+    }
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

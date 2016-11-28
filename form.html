@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"> <!--Garumzīmes-->
+		<link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
+		<link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis">
+		<script type="text/javascript" src="style1.js"></script>
+		<script type="text/javascript" src="poll1.php"></script>
+		<script type="text/javascript" src="style2.js"></script>
+		<script type="text/javascript" src="poll2.php"></script>
+		<script type="text/javascript" src="style3.js"></script>
+		<script type="text/javascript" src="poll3.php"></script>
+		<script type="text/javascript" src="style4.js"></script>
+		<script type="text/javascript" src="poll4.php"></script>
+	</head>
+
+<body>
+
+	<div class="nav_container">
+		<ul class="menu cf">
+			<li><a href="index.html">Sākums</a></li>
+			<li><a href="form.html">Anketa</a></li>
+			<li><a href="gallery.html">Galerija</a></li>
+			<li><a href="about.html">Par mani</a></li>
+			<li><a href="contacts.html">Kontakti</a></li>
+</ul>
+	</div>
+
+	<div class="header">
+		<img class="header_logo" src="Images/Logo.png"/>
+	</div>
+
+	<div class="jaunumi"><h1>Anketa</h1></div>
+
+	<div class="s1_container"> <!--Galvenais teksts-->
+	<!--1. aptauja-->
+	<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Vārds
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Tālrunis
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>E-pasts
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Pēc Tavām domām populārākā mašīna</legend>
+<p><label class="choice"> <input type="radio" name="taxi" required value="car"> BMW </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="van"> Lamorghini </label></p>
+<p><label class="choice"> <input type="radio" name="taxi" required value="tuktuk"> Audi </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Ekstras</legend>
+<p><label class="choice"> <input type="checkbox" name="extras" value="baby"> Porsche </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="wheelchair"> Range Rover </label></p>
+<p><label class="choice"> <input type="checkbox" name="extras" value="tip"> Škoda </label></p>
+</fieldset>
+
+<p>
+<label>Datums, kurā anketa tika aizpildīta
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Dzimums
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Vīrietis</option>
+<option value="town_hall" >Sieviete</option>
+</select>
+</label> 
+</p>
+
+<p>
+<label>Mīļākā mašīnas krāsa
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Zila">
+<option value="Sarkana">
+<option value="Melna">
+<option value="Balta">
+</datalist>
+</p>
+
+<p>
+<label>Piezīmes:
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Iesniegt anketu</button></p>
+
+</form>
+
+  </div>
+	</div>
+	</div>
+</body>
+
+</html>
